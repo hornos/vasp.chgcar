@@ -1,0 +1,17 @@
+chgcar is a small utility to +-/* CHGCAR type files. Especially 
+suitable for large files, while it operates item by item. This is, 
+however, it's biggest drawback: files only with the exactly same 
+dimensions are allowed.
+
+TODO:
+remove VASP nitems dependency
+
+Usage:
+./chgcar < input.chgcar
+
+input.chgcar:
+1.000
+from.CHGCAR
+-1.000
+this.CHGCAR
+diff.CHGCAR
